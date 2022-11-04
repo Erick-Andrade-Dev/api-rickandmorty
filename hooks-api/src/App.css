@@ -1,0 +1,62 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+.container-main {
+  display: flex;
+  flex-flow: column wrap;  
+  align-items: center;
+}
+
+.container-personagens {
+  margin-top: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.image-personagens {
+  border-radius: 5px;
+  border: 3px double black;
+  margin-bottom: 20px;
+}
+
+.name-personagens {
+  color: black;
+  margin-bottom: 4.2px;
+  font-weight: 800;  
+  text-align: center;
+}
+
+.label-filter-name {
+  margin-top: 25px;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 9px;  
+  align-items: center;  
+}
+
+.search {
+  font-style: italic;
+  font-weight: 700;
+  margin-left: 16px; 
+  border-bottom: 3px double black;
+}
+
+h1 {   
+  background-color: gray;
+  text-align: center;
+  border-bottom: 3px solid black;
+  width: 100%;
+  padding: 10px;
+}
+
+input {
+  padding: 2px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  border: 3px double black;
+}
